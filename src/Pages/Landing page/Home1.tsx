@@ -41,7 +41,7 @@ const ShuffleHero = () => {
             whileTap={{ scale: 0.98 }}
             className="bg-gradient-to-r from-yellow-500 to-green-500 text-white font-medium py-2 px-6 rounded transition-all shadow-sm hover:shadow-md"
           >
-            Download
+            Explore
           </motion.button>
           
           {/* Update this button to navigate to the GitHub link */}

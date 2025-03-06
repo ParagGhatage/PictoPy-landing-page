@@ -117,6 +117,9 @@ const PictopyLanding: FC = () => {
 
           {/* Download Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+          href="https://github.com/rahulharpal1603/PictoPy/releases/download/app-v0.0.0/PictoPy_0.0.0_aarch64.dmg"
+          >
             <Button
               className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 h-12 px-8 transition-all duration-300 
                          border-2 border-transparent hover:border-black dark:hover:border-white 
@@ -127,6 +130,11 @@ const PictopyLanding: FC = () => {
               <Apple className="h-5 w-5 mr-2" />
               Download for Mac
             </Button>
+          </a>
+
+          <a
+          href="https://github.com/rahulharpal1603/PictoPy/releases/download/app-v0.0.0/PictoPy_0.0.0_x64-setup.exe"
+          >
             <Button
               className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 h-12 px-8 transition-all duration-300 
                          border-2 border-transparent hover:border-black dark:hover:border-white 
@@ -138,6 +146,9 @@ const PictopyLanding: FC = () => {
               <Monitor className="h-5 w-5 mr-2" />
               Download for Windows
             </Button>
+            </a>
+
+            <a href="https://github.com/rahulharpal1603/PictoPy/releases/download/app-v0.0.0/PictoPy_0.0.0_amd64.deb">
             <Button
               className="bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 h-12 px-8 transition-all duration-300 
                          border-2 border-transparent hover:border-black dark:hover:border-white 
@@ -149,6 +160,8 @@ const PictopyLanding: FC = () => {
               <Laptop className="h-5 w-5 mr-2" />
               Download for Linux
             </Button>
+            </a>
+
           </div>
 
           {/* Download Notification (Popup) */}
