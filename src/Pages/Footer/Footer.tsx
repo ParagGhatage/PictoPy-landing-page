@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
               className="text-sm font-medium text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-green-400 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-green-500 transition duration-300 ease-in-out"
             >
               <FaDiscord className="inline-block mr-2 text-yellow-400 hover:text-green-400 transition duration-300 ease-in-out" /> {/* Discord Icon */}
-              <span>Made with love by Aoosie team</span>
+              <span>Made with love by ASHUTOSH/KARNX7</span>
             </a>
           </div>
         </div>
